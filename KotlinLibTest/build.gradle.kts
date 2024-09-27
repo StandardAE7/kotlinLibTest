@@ -56,7 +56,7 @@ afterEvaluate {
         repositories {
             maven {
                 name = "GitHubPackages"
-                uri("https://github.com/StandardAE7/kotlinLibTest") // Replace with your repository URL
+                url = uri("https://github.com/StandardAE7/kotlinLibTest") // Replace with your repository URL
                 credentials {
                     username = "StandardAE7"
                     password = "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"
